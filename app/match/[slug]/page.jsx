@@ -6,8 +6,9 @@ export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }) {
-  const match = getMatchBySlug(params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const match = getMatchBySlug(slug);
   if (!match) return {};
   const { home, away, score, date } = match.meta;
   const title = `${home} ${score} ${away} (${date}) — Play on Worst Eleven`;
@@ -15,13 +16,14 @@ export function generateMetadata({ params }) {
   return {
     title,
     description,
-    openGraph: { title: `${home} ${score} ${away}`, description, url: `https://worsteleven.com/match/${params.slug}` },
+    openGraph: { title: `${home} ${score} ${away}`, description, url: `https://worsteleven.com/match/${slug}` },
     twitter: { title: `${home} ${score} ${away} | Worst Eleven`, description },
   };
 }
 
-export default function MatchPage({ params }) {
-  const match = getMatchBySlug(params.slug);
+export default async function MatchPage({ params }) {
+  const { slug } = await params;
+  const match = getMatchBySlug(slug);
   if (!match) notFound();
 
   const { home, away, score, homeColour, awayColour, date, label, blurb } = match.meta;
