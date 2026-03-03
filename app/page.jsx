@@ -229,7 +229,7 @@ export default function HomePage() {
         </section>
 
         {/* FOOTER */}
-        <footer className="border-t border-[#1e1e1e] px-6 py-5 flex items-center justify-between flex-wrap gap-2">
+        <footer className="border-t border-[#1e1e1e] px-6 py-5 flex items-center justify-between flex-wrap gap-3">
           <span
             className="text-white"
             style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 20, letterSpacing: 2 }}
@@ -239,11 +239,12 @@ export default function HomePage() {
           <nav className="flex gap-6">
             <Link href="/match" className="text-[#555] text-xs hover:text-[#888] transition-colors">All Matches</Link>
             <a href="/game" className="text-[#555] text-xs hover:text-[#888] transition-colors">Play</a>
-          <Link href="/disclaimer" className="text-[#555] text-xs hover:text-[#888] transition-colors">Disclaimer</Link>
-          <Link href="/privacy" className="text-[#555] text-xs hover:text-[#888] transition-colors">Privacy</Link>
-          <Link href="/terms" className="text-[#555] text-xs hover:text-[#888] transition-colors">Terms</Link>
           </nav>
-          <span className="text-[#333] text-[11px]">worsteleven.com</span>
+          <nav className="flex gap-4">
+            <Link href="/disclaimer" className="text-[#444] text-xs hover:text-[#777] transition-colors">Disclaimer</Link>
+            <Link href="/privacy" className="text-[#444] text-xs hover:text-[#777] transition-colors">Privacy</Link>
+            <Link href="/terms" className="text-[#444] text-xs hover:text-[#777] transition-colors">Terms</Link>
+          </nav>
         </footer>
       </main>
     </>

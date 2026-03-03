@@ -227,7 +227,7 @@ export default async function MatchPage({ params }) {
         )}
 
         {/* FOOTER */}
-        <footer className="border-t border-[#1a1a1a] px-6 py-5 flex items-center justify-between flex-wrap gap-2">
+        <footer className="border-t border-[#1a1a1a] px-6 py-5 flex items-center justify-between flex-wrap gap-3">
           <Link
             href="/"
             className="text-white"
@@ -235,10 +235,14 @@ export default async function MatchPage({ params }) {
           >
             WORST<span className="text-[#e8290b]">XI</span>
           </Link>
-          <Link href="/match" className="text-[#555] text-xs hover:text-[#888] transition-colors">All Matches</Link>
-          <Link href="/disclaimer" className="text-[#555] text-xs hover:text-[#888] transition-colors">Disclaimer</Link>
-          <Link href="/privacy" className="text-[#555] text-xs hover:text-[#888] transition-colors">Privacy</Link>
-          <Link href="/terms" className="text-[#555] text-xs hover:text-[#888] transition-colors">Terms</Link>
+          <nav className="flex gap-6">
+            <Link href="/match" className="text-[#555] text-xs hover:text-[#888] transition-colors">All Matches</Link>
+          </nav>
+          <nav className="flex gap-4">
+            <Link href="/disclaimer" className="text-[#444] text-xs hover:text-[#777] transition-colors">Disclaimer</Link>
+            <Link href="/privacy" className="text-[#444] text-xs hover:text-[#777] transition-colors">Privacy</Link>
+            <Link href="/terms" className="text-[#444] text-xs hover:text-[#777] transition-colors">Terms</Link>
+          </nav>
         </footer>
       </div>
     </>
