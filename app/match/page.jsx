@@ -117,6 +117,18 @@ export default function MatchArchivePage() {
           })}
         </div>
       </main>
+      <footer className="border-t border-[#1a1a1a] px-6 py-5 flex items-center justify-between flex-wrap gap-3">
+        <Link href="/" className="text-white" style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 20, letterSpacing: 2 }}>
+          WORST<span className="text-[#e8290b]">XI</span>
+        </Link>
+        <nav className="flex gap-5 flex-wrap">
+          <Link href="/match" className="text-[#555] text-xs hover:text-[#888] transition-colors">All Matches</Link>
+          <a href="/game" className="text-[#555] text-xs hover:text-[#888] transition-colors">Play</a>
+          <Link href="/disclaimer" className="text-[#555] text-xs hover:text-[#888] transition-colors">Disclaimer</Link>
+          <Link href="/privacy" className="text-[#555] text-xs hover:text-[#888] transition-colors">Privacy</Link>
+          <Link href="/terms" className="text-[#555] text-xs hover:text-[#888] transition-colors">Terms</Link>
+        </nav>
+      </footer>
     </div>
   );
 }

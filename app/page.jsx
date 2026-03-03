@@ -239,6 +239,9 @@ export default function HomePage() {
           <nav className="flex gap-6">
             <Link href="/match" className="text-[#555] text-xs hover:text-[#888] transition-colors">All Matches</Link>
             <a href="/game" className="text-[#555] text-xs hover:text-[#888] transition-colors">Play</a>
+          <Link href="/disclaimer" className="text-[#555] text-xs hover:text-[#888] transition-colors">Disclaimer</Link>
+          <Link href="/privacy" className="text-[#555] text-xs hover:text-[#888] transition-colors">Privacy</Link>
+          <Link href="/terms" className="text-[#555] text-xs hover:text-[#888] transition-colors">Terms</Link>
           </nav>
           <span className="text-[#333] text-[11px]">worsteleven.com</span>
         </footer>

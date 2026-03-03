@@ -15,7 +15,7 @@ export const ALL_MATCHES = [
       homeColour: '#6CABDD', awayColour: '#FBEE23',
       date: '21 Sep 2019',
       label: 'Premier League · Sat 21 Sep 2019 · 3:00pm BST',
-      blurb: 'The Etihad, 3pm. <strong>Man City sit 2nd</strong> (W4 D1 L1, 13 pts) after a shock home loss to Norwich last weekend. <strong>Watford are rock bottom</strong> — winless in six, just 2 points all season. Bernardo Silva and De Bruyne have been in electric form. Deeney leads the line for a Hornets side desperate for a response.',
+      blurb: 'The Etihad, 3pm. <strong>Man City sit 2nd</strong> (W4 D1 L1, 13 pts) after a shock home loss to Norwich last weekend. <strong>Watford are rock bottom</strong> — winless in six, just 2 points all season. Bernardo Silva and De Bruyne are in electric form. Deeney leads the line for a Hornets side desperate for a response.',
     },
   },
   {
@@ -81,7 +81,7 @@ export const ALL_MATCHES = [
       homeColour: '#241F20', awayColour: '#EF0107',
       date: '5 Feb 2011',
       label: 'Premier League · Sat 5 Feb 2011 · 3:00pm GMT',
-      blurb: "St James' Park, February 2011. <strong>Arsenal sit top of the Premier League</strong> (W16 D4 L2) chasing their first title since the Invincibles. Van Persie and Walcott are in blistering form. <strong>Newcastle are 12th</strong> but feisty at home — Tiote's screamer finishes it.",
+      blurb: "St James' Park, February 2011. <strong>Arsenal sit top of the Premier League</strong> (W16 D4 L2) chasing their first title since the Invincibles. Van Persie and Walcott are in blistering form. <strong>Newcastle are 12th</strong> but feisty at home — Nolan and Tiote provide steel in midfield, Carroll leads the line. Can the Gunners maintain their grip at the summit?",
     },
   },
   {
@@ -136,7 +136,7 @@ export const ALL_MATCHES = [
       homeColour: '#6CABDD', awayColour: '#DA291C',
       date: '23 Oct 2011',
       label: 'Premier League · Sun 23 Oct 2011 · 1:30pm BST',
-      blurb: "<strong>City hadn't beaten United at home since 1969.</strong> Balotelli starts up front wearing a T-shirt under his kit that nobody's seen yet. <strong>United led by Ferguson</strong> are slight favourites. Why Always Me.",
+      blurb: "<strong>City hadn't beaten United at home since 1969.</strong> A psychological monkey on their backs heading into derby day. Balotelli starts up front — he's been keeping something under his kit all week. <strong>United led by Ferguson</strong> are slight favourites. The Etihad is buzzing.",
     },
   },
   {
@@ -158,7 +158,7 @@ export const ALL_MATCHES = [
       homeColour: '#034694', awayColour: '#6CABDD',
       date: '12 Nov 2023',
       label: 'Premier League · Sun 12 Nov 2023 · 2:00pm GMT',
-      blurb: "<strong>Chelsea led 4-0 at half time.</strong> The reigning treble winners were being demolished. Four City goals in the second half completed the most stunning comeback of the season.",
+      blurb: "<strong>Chelsea are flying under Pochettino</strong> — Cole Palmer electric in his debut season, Jackson sharp up front. <strong>Man City arrive as reigning treble winners</strong> and league leaders. Haaland hasn't stopped scoring. Foden and Doku provide the width. A home side desperate to prove they belong at the top.",
     },
   },
   {
@@ -169,7 +169,7 @@ export const ALL_MATCHES = [
       homeColour: '#132257', awayColour: '#003399',
       date: '13 Sep 2020',
       label: 'Premier League · Sun 13 Sep 2020 · 4:30pm BST',
-      blurb: "<strong>Mourinho's first season at Spurs.</strong> Son and Kane look dangerous together — the chemistry is building. Son hat-trick. Kane 6 assists. The partnership has arrived.",
+      blurb: "<strong>Mourinho's first season at Spurs.</strong> His system is starting to click — the squad beginning to buy in. Son and Kane are building dangerous chemistry in attack. Richarlison leads Everton's line under Ancelotti. Can Spurs assert themselves in front of a watching nation?",
     },
   },
   {
@@ -191,7 +191,7 @@ export const ALL_MATCHES = [
       homeColour: '#C8102E', awayColour: '#1B458F',
       date: '19 Dec 2020',
       label: 'Premier League · Sat 19 Dec 2020 · 5:30pm GMT',
-      blurb: "<strong>Liverpool are in devastating form</strong> — Klopp's gegenpressing system at its peak. Firmino, Mané and Salah are the most feared front three in Europe. The biggest win in Liverpool's Premier League history.",
+      blurb: "<strong>Liverpool are in devastating form</strong> — Klopp's gegenpressing system at its peak. Firmino, Mané and Salah are the most feared front three in Europe. Crystal Palace arrive under Sam Allardyce, fighting to survive. A daunting away day for the Eagles — can they hold their shape?",
     },
   },
   {
@@ -202,7 +202,7 @@ export const ALL_MATCHES = [
       homeColour: '#6CABDD', awayColour: '#FFCD00',
       date: '14 Dec 2021',
       label: 'Premier League · Tue 14 Dec 2021 · 7:30pm GMT',
-      blurb: "<strong>Leeds were already struggling</strong> in their second season back in the top flight. City were the champions. Mahrez with two. City went seven without reply. A brutal Tuesday night in Manchester.",
+      blurb: "<strong>Leeds were already struggling</strong> in their second season back in the top flight — Bielsa's high-press exposed by the best sides. <strong>City were the champions</strong>, Guardiola's machine in full flow. Mahrez and De Bruyne in devastating form. A Tuesday night with very different expectations on either side.",
     },
   },
   {
@@ -213,7 +213,7 @@ export const ALL_MATCHES = [
       homeColour: '#DD0000', awayColour: '#6CABDD',
       date: '31 Aug 2022',
       label: 'Premier League · Wed 31 Aug 2022 · 7:30pm BST',
-      blurb: "<strong>Forest had just been promoted</strong> after 23 years away. City were champions. Erling Haaland, brand new to English football, scored twice on his first away league start.",
+      blurb: "<strong>Forest had just been promoted</strong> after 23 years away — the emotion of being back still raw. City were the reigning champions. Erling Haaland makes his first away league start — the most talked-about signing of the summer. The gap between the league's two ends has never felt wider.",
     },
   },
   {
@@ -224,7 +224,7 @@ export const ALL_MATCHES = [
       homeColour: '#132257', awayColour: '#003090',
       date: '17 Sep 2022',
       label: 'Premier League · Sat 17 Sep 2022 · 3:00pm BST',
-      blurb: "<strong>Son had gone six games without a goal.</strong> The drought ended emphatically — he scored four. Kane two. One of the finest individual Premier League performances in years.",
+      blurb: "<strong>Son had gone six games without a goal</strong> — the pressure mounting on last season's Golden Boot winner. Kane leads the line as always. Leicester arrive with Vardy hungry to remind everyone what he can do. Something has to give — but which way?",
     },
   },
   {
@@ -235,7 +235,7 @@ export const ALL_MATCHES = [
       homeColour: '#241F20', awayColour: '#132257',
       date: '10 Dec 2023',
       label: 'Premier League · Sun 10 Dec 2023 · 2:00pm GMT',
-      blurb: "<strong>Newcastle were in the Champions League</strong> for the first time in twenty years. Tottenham, under Postecoglou, were unpredictable. St James' Park at full voice delivered a complete performance.",
+      blurb: "<strong>Newcastle were in the Champions League</strong> for the first time in twenty years — the stadium buzzing with a new belief. Tottenham, under Postecoglou, play bold attacking football and are unpredictable. Two ambitious sides with contrasting styles on a day St James' Park was ready to roar.",
     },
   },
   {
@@ -257,7 +257,7 @@ export const ALL_MATCHES = [
       homeColour: '#E30613', awayColour: '#034694',
       date: '19 Oct 2022',
       label: 'Premier League · Wed 19 Oct 2022 · 7:45pm BST',
-      blurb: "<strong>Chelsea were in freefall under Potter</strong> — no wins in five. Brentford were the Premier League's surprise package. Ivan Toney magnificent. One of Chelsea's most humbling nights.",
+      blurb: "<strong>Chelsea were in freefall under Potter</strong> — no wins in five, the dressing room unsettled. Brentford have been the Premier League's surprise package — organised, physical, dangerous on the break. Ivan Toney leads their attack with menace. Can Chelsea's expensive squad find a response?",
     },
   },
   {
@@ -268,7 +268,7 @@ export const ALL_MATCHES = [
       homeColour: '#C8102E', awayColour: '#EF0107',
       date: '8 Feb 2014',
       label: 'Premier League · Sat 8 Feb 2014 · 5:30pm GMT',
-      blurb: "<strong>Liverpool were five points off the top</strong> with a game in hand, chasing their first title in 24 years. Arsenal were the leaders. Suárez was unstoppable. The title race turned on its axis.",
+      blurb: "<strong>Liverpool were five points off the top</strong> with a game in hand, chasing their first title in 24 years. Arsenal were the leaders — Wenger's side in control of their own destiny. Suárez has been unstoppable all season. One of the most significant fixtures in the title race.",
     },
   },
   {
@@ -279,7 +279,7 @@ export const ALL_MATCHES = [
       homeColour: '#034694', awayColour: '#EF0107',
       date: '22 Mar 2014',
       label: 'Premier League · Sat 22 Mar 2014 · 5:30pm GMT',
-      blurb: "<strong>Arsenal's heaviest defeat in 115 years.</strong> They arrived as title contenders. Mourinho's Chelsea were clinical, organised, merciless. Özil invisible. Fabianski at fault.",
+      blurb: "<strong>Arsenal arrived as Premier League title contenders</strong> — Wenger's side sitting second, Özil pulling strings, Giroud up front. <strong>Mourinho's Chelsea were the benchmark</strong>, ruthlessly organised at home. Hazard and Matic control games with ease. A London derby with enormous title implications.",
     },
   },
   {
@@ -290,7 +290,7 @@ export const ALL_MATCHES = [
       homeColour: '#DA291C', awayColour: '#034694',
       date: '30 Jan 2019',
       label: 'Premier League · Wed 30 Jan 2019 · 7:45pm GMT',
-      blurb: "<strong>Chelsea were in Sarri's first season</strong> — inconsistent but with moments of brilliance. Bournemouth tore them apart. Wilson two goals. Fraser outstanding. Chelsea's defence completely at sea.",
+      blurb: "<strong>Chelsea were in Sarri's first season</strong> — promising football but inconsistent results, the squad not yet fully convinced. Bournemouth have been the Premier League's most pleasant surprise. Wilson and Fraser causing problems all season. Chelsea's backline will face a tough examination.",
     },
   },
   {
@@ -301,7 +301,7 @@ export const ALL_MATCHES = [
       homeColour: '#EF0107', awayColour: '#C8102E',
       date: '14 Aug 2016',
       label: 'Premier League · Sun 14 Aug 2016 · 4:00pm BST',
-      blurb: "<strong>Opening day of the season.</strong> Liverpool led 4-1. Klopp's pressing system overwhelming Arsenal. Then Arsenal scored three in 20 minutes. Oxlade-Chamberlain wonder strike. The most dramatic opening day in Premier League history.",
+      blurb: "<strong>Opening day of the season.</strong> Klopp's Liverpool are ready to press and overwhelm from the first whistle — Mané, Firmino and Coutinho leading the charge. Arsenal have Özil, Alexis Sánchez and Walcott to counter. Both managers believe in attacking football. The perfect way to start the campaign.",
     },
   },
   {
@@ -323,7 +323,7 @@ export const ALL_MATCHES = [
       homeColour: '#6CABDD', awayColour: '#1D5BA4',
       date: '13 May 2012',
       label: 'Premier League · Sun 13 May 2012 · 5:00pm BST',
-      blurb: "<strong>City needed to win to take the title from United.</strong> QPR were battling relegation. City led then trailed 2-1 with 10 minutes left. Džeko made it 2-2. Then, in injury time, Agüero. The most dramatic moment in Premier League history.",
+      blurb: "<strong>The Etihad, final day of the season.</strong> City need to win to take the title from United — any other result hands the trophy to Old Trafford. QPR arrive fighting relegation, with nothing to lose. Tevez and Agüero lead City's attack. The most pressurised 90 minutes in Premier League history.",
     },
   },
 ];

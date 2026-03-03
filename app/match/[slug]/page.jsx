@@ -160,7 +160,7 @@ export default async function MatchPage({ params }) {
               href="/game"
               className="bg-white text-black font-semibold rounded-xl px-10 py-4 text-sm inline-block hover:bg-[#e8e6e1] transition-colors"
             >
-              Draft this match →
+              Play Now — Free →
             </a>
           </div>
         </header>
@@ -235,9 +235,10 @@ export default async function MatchPage({ params }) {
           >
             WORST<span className="text-[#e8290b]">XI</span>
           </Link>
-          <Link href="/match" className="text-[#555] text-xs hover:text-[#888] transition-colors">
-            All Matches
-          </Link>
+          <Link href="/match" className="text-[#555] text-xs hover:text-[#888] transition-colors">All Matches</Link>
+          <Link href="/disclaimer" className="text-[#555] text-xs hover:text-[#888] transition-colors">Disclaimer</Link>
+          <Link href="/privacy" className="text-[#555] text-xs hover:text-[#888] transition-colors">Privacy</Link>
+          <Link href="/terms" className="text-[#555] text-xs hover:text-[#888] transition-colors">Terms</Link>
         </footer>
       </div>
     </>
